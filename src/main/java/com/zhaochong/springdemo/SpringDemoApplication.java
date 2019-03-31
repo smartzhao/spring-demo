@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.zhaochong.springdemo.dao")//增加dao mybatis
+//@ComponentScan("com.zhaochong.springdemo") 自定义结构
 public class SpringDemoApplication {
 
 	public static void main(String[] args) {

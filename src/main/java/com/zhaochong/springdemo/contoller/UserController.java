@@ -5,6 +5,7 @@ import com.zhaochong.springdemo.dto.StatusEnum;
 import com.zhaochong.springdemo.dto.TmpUserDTO;
 import com.zhaochong.springdemo.entity.TmpUser;
 import com.zhaochong.springdemo.entity.User;
+import com.zhaochong.springdemo.entity.UserTest;
 import com.zhaochong.springdemo.service.UserService;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -49,5 +50,10 @@ public class UserController {
     @GetMapping("/api/test")
     public TmpUserDTO getUserInfo() {
         return userService.getUserInfo();
+    }
+
+    @GetMapping("/api/users")
+    public List<UserTest> getAllUserInfo() {
+        return userService.getAllUserInfo();
     }
 }

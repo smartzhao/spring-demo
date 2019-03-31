@@ -5,6 +5,7 @@ import com.zhaochong.springdemo.entity.TmpTag;
 import com.zhaochong.springdemo.dto.TmpUserDTO;
 import com.zhaochong.springdemo.entity.TmpUser;
 import com.zhaochong.springdemo.entity.User;
+import com.zhaochong.springdemo.entity.UserTest;
 import com.zhaochong.springdemo.service.UserService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,5 +41,10 @@ public class UserServiceImpl implements UserService {
         return userDTO;
 
 
+    }
+
+    @Override
+    public List<UserTest>  getAllUserInfo() {
+        return userDao.getAllUserInfo();
     }
 }
