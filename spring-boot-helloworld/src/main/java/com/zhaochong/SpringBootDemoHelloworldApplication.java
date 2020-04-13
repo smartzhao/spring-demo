@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * SpringBoot启动类
  * </p>
  *
- * @package: com.xkcoding.helloworld
+ * @package: com.zhaochong
  * @description: SpringBoot启动类
  * @author: zhaochong
  * @date:
