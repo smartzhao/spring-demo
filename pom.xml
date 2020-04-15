@@ -6,6 +6,7 @@
         <module>spring-boot-helloworld</module>
         <module>spring-boot-demo-cell</module>
         <module>spring-boot-properties</module>
+        <module>spring-boot-demo-actuato</module>
     </modules>
 
     <groupId>com.zhaochong</groupId>
