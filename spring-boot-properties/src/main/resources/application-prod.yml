@@ -1,0 +1,8 @@
+application:
+  name: prod环境 @artifactId@
+  version: prod环境 @version@
+developer:
+  name: prod环境 zorozhao
+  website: prod环境 http://baidu.com
+  qq: prod环境 1060787856
+  phone-number: prod环境 15712893500
