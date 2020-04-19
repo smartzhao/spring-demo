@@ -9,6 +9,7 @@
         <module>spring-boot-demo-actuato</module>
         <module>spring-boot-demo-logback</module>
         <module>spring-boot-log-aop</module>
+        <module>spring-boot-demo-exception-handler</module>
     </modules>
 
     <groupId>com.zhaochong</groupId>
