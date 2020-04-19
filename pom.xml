@@ -10,6 +10,7 @@
         <module>spring-boot-demo-logback</module>
         <module>spring-boot-log-aop</module>
         <module>spring-boot-demo-exception-handler</module>
+        <module>spring-boot-demo-template-freemarker</module>
     </modules>
 
     <groupId>com.zhaochong</groupId>
