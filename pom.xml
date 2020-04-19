@@ -8,6 +8,7 @@
         <module>spring-boot-properties</module>
         <module>spring-boot-demo-actuato</module>
         <module>spring-boot-demo-logback</module>
+        <module>spring-boot-log-aop</module>
     </modules>
 
     <groupId>com.zhaochong</groupId>
