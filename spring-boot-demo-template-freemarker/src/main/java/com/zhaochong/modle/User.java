@@ -1,4 +1,4 @@
-package com.zhaochong.modle.modle;
+package com.zhaochong.modle;
 
 import lombok.Data;
 

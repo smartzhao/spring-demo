@@ -4,4 +4,4 @@ server:
     context-path: /demo
 spring:
   profiles:
-    active: dev
+    active: prod
