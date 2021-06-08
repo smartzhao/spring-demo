@@ -14,3 +14,5 @@
 /.idea/modules.xml
 /.idea/spring-demo.iml
 /.idea/workspace.xml
+/spring-boot-helloworld/target/classes/
+/.idea/
