@@ -148,7 +148,13 @@ public class BaseDao<T, P> {
 		String sql = StrUtil.format("SELECT * FROM {table} where 1=1 {where}", Dict.create().set("table", tableName).set("where", StrUtil.isBlank(where) ? "" : where));
 		log.debug("【执行SQL】SQL：{}", sql);
 		log.debug("【执行SQL】参数：{}", JSONUtil.toJsonStr(values));
-		List<Map<String, Object>> maps = jdbcTemplate.queryForList(sql, values);
+		List<Map<String, Object>> maps = null;
+		try {
+		   maps = jdbcTemplate.queryForList(sql, values);
+		}catch (Exception e){
+			log.error("【执行SQL】Exception：{}", e);
+		}
+
 		List<T> ret = CollUtil.newArrayList();
 		maps.forEach(map -> ret.add(BeanUtil.fillBeanWithMap(map, ReflectUtil.newInstance(clazz), true, false)));
 		return ret;
